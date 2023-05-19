@@ -1,0 +1,10 @@
+@keyframes slide{
+	0% { left: 0;}
+	100% { left: 100px;}
+}
+
+.my-element{
+	position: relative;
+	animation: slide 2s infinite;
+}
+
